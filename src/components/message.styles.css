@@ -1,0 +1,31 @@
+.message {
+  padding: 10px;
+  background-color: #61b6e0;
+  align-self: start;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.my-message {
+  background-color: #0080c1;
+  align-self: end;
+}
+
+.message p {
+  color: white;
+  font-weight: lighter;
+  font-family: Calibri;
+  line-height: 8px;
+}
+
+.my-message p {
+  text-align: right;
+  color: white;
+  font-weight: lighter;
+  font-family: Calibri;
+  line-height: 8px;
+}
+
+.message p:nth-child(2) {
+  margin-bottom: 5px;
+}
